@@ -1,0 +1,2 @@
+# ignore ipython tracking files
+notebook/.ipy*
