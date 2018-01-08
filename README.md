@@ -1,5 +1,5 @@
 # Pokemon-ML
-Gotta predict them all! Pokemon!
+Gotta predict 'em all! Pokemon!
 
 ## Type Prediction
 
