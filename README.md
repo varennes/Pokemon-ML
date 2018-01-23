@@ -1,15 +1,15 @@
 # Pokemon-ML
 Gotta predict 'em all! Pokemon!
 
+This is an exploration and analysis of the Pokemon from generations 1 to 6. The data is from [kaggle user alopez247](https://www.kaggle.com/alopez247/pokemon/data).
+
 ## Type Prediction
 
-### Combined Type Prediction
+I am curious to see if we can develop a model which can have predict pokemon type. A Pokemon's type is indicative of the elemental characteristics associated with that pokemon and its attacks.
 
-Predict the pokemon type regardless of its order. That is to say, we are not interested in making the distinction between `Type_1` and `Type_2` order. For example: a `grass / poison` type will be treated the same as a `poison / grass` type.
+Current work on predicting Pokemon type can be found in these notebooks: `/notebook/02_typePrediction.ipynb` and `/notebook/02_WaterTypePredictions.ipynb`.
 
 **Features to use in classification:**
-
-
 
 - Battling Attributes: `Total`, `HP`, `Attack`, `Defense`, `Sp_Atk`, `Sp_Def`, `Speed`
 - Physical Attributes: `Color`, `hasGender`, `Egg_Group_1`, `Egg_Group_2`, `Height_m`, `Weight_kg`, `Body_style`
